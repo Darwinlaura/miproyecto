@@ -4,6 +4,15 @@ public class Tarea {
     private boolean cumplido;
        public Tarea{
 
-    //Constructor
+    //Constructor 
+       	public Persona (){
+
+    }
+    public int getId (){
+    	return this.id;
+    }
+    public void setId (int id){
+    this.id=id;
+}
     }
 }
